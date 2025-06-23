@@ -1,4 +1,4 @@
-# Deploying-a-Face-Unmasking-Deeplearning-Model-for-Android-Application
+# Deep Learning Model Deployment for Android Application
 
 # **Motivation:**
 
