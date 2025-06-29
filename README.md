@@ -2,14 +2,12 @@
 
 # **Motivation:**
 
-Due to the covid-19 pandemic safety measures such as wearing a mask, and maintaining social distance are implemented to prevent the spread of the virus. People wear masks wherever they go and we can not see the face behind the mask and don't know who the person is. In order to overcome this problem, we can use Deep learning models to predict the face of the person behind the mask.
+Due to the COVID-19 pandemic, safety measures such as wearing masks and maintaining social distance have been implemented to prevent the spread of the virus. As a result, people wear masks wherever they go, making it difficult to see their faces and recognize their identities. To address this challenge, deep learning models can be used to predict or reconstruct the face of a person behind a mask.
 
-To use a Deep Learning model for solving real-world problems, the model must be deployed. Model deployment is as important as model building. The goal of building a deep learning model is to solve a problem, and a deep learning model can only do so when it is in production and actively in use.
+For deep learning models to solve real-world problems, they must be deployed effectively. Model deployment is just as important as model development. The primary goal of building a deep learning model is to solve a practical problem—and this can only be achieved when the model is in production and actively in use.
 
-It would be crucial to train and update the model frequently as the anonymous data cannot be handled effectively. A new model should be adequately tested before it is used to replace the old one. The deployed model can be used handy in a mobile phone for real-time work.
+It is essential to regularly train and update the model, especially when dealing with anonymous or variable data. Any new model should be thoroughly tested before replacing the existing one in production. Once deployed, the model can be integrated into mobile applications to enable real-time usage and accessibility.
 
 # **Objective:**
 
-The objective of this project is to take the user image from the android app and upload the images into the cloud/server, and also deploy the pre-trained deep learning model into the cloud/server so that we can use that remote model in the android app.
-
-A deep learning algorithm that takes the input image having a face mask is given to the network and the network provides the output without that mask being deployed into the real world to the users.
+The objective of this project is to enable real-time face reconstruction from masked images using a deep learning model integrated within an Android application. User images captured in the app are uploaded to the cloud, where a pre-trained deep learning model—deployed to FirebaseML—processes them. The remote model takes an input image of a person wearing a face mask and generates an output image predicting the face without the mask. By leveraging FirebaseML, the Android app can access this model for real-time inference, ensuring scalable and efficient on-device predictions.
